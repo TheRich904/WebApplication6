@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+</style>
+</head>
+@*<body>*@
+<h2>Drink Specials Menu</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Drink</th>
+    <th>Ingredients</th>
+    <th>Cost</th>
+    <th>Order Now!</th>
+  </tr>
+  <tr>
+    <td>Sunset Sunrise</td>
+    <td>Malibu Coconut Rum (Light) - Orange Juice - Pineapple</td>
+    <td>$9.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+
+  </tr>
+  <tr>
+    <td>Florida Midnight</td>
+    <td>Jägermeister - Redbull</td>
+    <td>$12.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+  <tr>
+    <td>Creamsicle</td>
+    <td>Spiced Captain Morgan - Sprite</td>
+    <td>$13.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+    <tr>
+    <td>Jax Joke</td>
+    <td>Jack Daniel's - Coca-Cola</td>
+    <td>$14.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+    <tr>
+    <td>Dirty Dan</td>
+    <td>Crown Royal - Cranberry Juice - Sprite</td>
+    <td>$15.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+  
+
+  <tr>
+</table>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+@*<body>*@
+
+<h2>Extra Additions</h2>
+
+<table style="width:100%">
+  <tr>
+    <td>Fruit</td>
+    <td>1 Slice - Fruit of Choice - (Orange,Apple,Lemon,Lime,Pineapple)</td>
+    <td>$1.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+   <tr>
+    <td>Smoked Glass</td>
+    <td>Rocks Glass - Smoked with our Finest Hickory Wood</td>
+    <td>$2.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+   <tr>
+    <td>Ice Sphere</td>
+    <td>1 Ice Sphere in Drink</td>
+    <td>$0.99</td>
+    <td><button class="AddtoCart">Add To Cart</button></td>
+  </tr>
+ </table>
+
+<p>If there are any questions, please ask your Bartender.</p>
+
+<h1>Customer Information</h1>
+
+<form>
+@*action="/action_page.php" method="get">*@
+</form> 
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+ 
+   
+    <a href="https://richiedurfee.w3spaces-preview.com/payment.html" target="_blank">
+      <button
+        
+        "
+      >
+        Continue
+      </button>
+    </a>
+
+
+  <button type="reset" value="Reset">Reset</button>
+ <a href="https://richiedurfee.w3spaces-preview.com/payment.html" target="_blank">
+      <button
+        
+        "
+      >
+        Bartender
+      </button>
+    </a>
+</form>
+
+</body>
+</html>
